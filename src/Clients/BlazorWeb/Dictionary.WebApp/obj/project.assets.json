@@ -1768,11 +1768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\Dictionary.WebApp\\Dictionary.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Clients\\BlazorWeb\\Dictionary.WebApp\\Dictionary.WebApp.csproj",
       "projectName": "Dictionary.WebApp",
-      "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\Dictionary.WebApp\\Dictionary.WebApp.csproj",
+      "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Clients\\BlazorWeb\\Dictionary.WebApp\\Dictionary.WebApp.csproj",
       "packagesPath": "C:\\Users\\aalti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\Dictionary.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Clients\\BlazorWeb\\Dictionary.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

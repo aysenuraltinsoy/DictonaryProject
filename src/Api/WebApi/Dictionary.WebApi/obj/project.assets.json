@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.Api.WebApi\\Dictionary.Api.WebApi.csproj",
-      "projectName": "Dictionary.Api.WebApi",
-      "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.Api.WebApi\\Dictionary.Api.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.WebApi\\Dictionary.WebApi.csproj",
+      "projectName": "Dictionary.WebApi",
+      "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.WebApi\\Dictionary.WebApi.csproj",
       "packagesPath": "C:\\Users\\aalti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.Api.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\WebApi\\Dictionary.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

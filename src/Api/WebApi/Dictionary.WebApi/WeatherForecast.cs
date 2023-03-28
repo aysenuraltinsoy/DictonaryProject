@@ -1,4 +1,4 @@
-namespace Dictionary.Api.WebApi
+namespace Dictionary.WebApi
 {
     public class WeatherForecast
     {
