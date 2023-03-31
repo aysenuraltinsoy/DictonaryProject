@@ -12,6 +12,10 @@ namespace Dictionary.Infrastructure.Persistence.Context
     public class DictionaryContext:DbContext
     {
         public const string DEFAULT_SCHEMA = "dbo";
+        public DictionaryContext()
+        {
+
+        }
         public DictionaryContext(DbContextOptions options):base(options)
         {
 
@@ -25,6 +29,18 @@ namespace Dictionary.Infrastructure.Persistence.Context
         public DbSet<EntryVote> EntryVotes { get; set; }
         public DbSet<EntryCommentVote> EntryCommentVotes { get; set; }
         public DbSet<EntryCommentFavorite> EntryCommentFavorites { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if(!optionsBuilder.IsConfigured)
+            {
+                var connStr = "Server=DESKTOP-ORUQO20;Database=DictionaryDb;Trusted_Connection=True;TrustServerCertificate=True;";
+                optionsBuilder.UseSqlServer(connStr, opt =>
+                {
+                    opt.EnableRetryOnFailure();  //veritabanına bağlanırken hata alınırsa retry mekanizması devreye giriyor
+                });
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
