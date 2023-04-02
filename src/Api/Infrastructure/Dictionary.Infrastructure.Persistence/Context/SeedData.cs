@@ -35,6 +35,12 @@ namespace Dictionary.Infrastructure.Persistence.Context
             dbContextBuilder.UseSqlServer(configuration["DictionaryDbConnectionString"]);
             var context=new DictionaryContext(dbContextBuilder.Options);
 
+            if(context.Users.Any())
+            {
+                await Task.CompletedTask;
+                return;
+            }
+
             var users = GetUsers();
             var userIds = users.Select(i => i.Id);
 
