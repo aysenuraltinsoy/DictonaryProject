@@ -25,7 +25,7 @@ namespace Dictionary.Infrastructure.Persistence.Context
         public DbSet<Entry> Entries { get; set; }
         public DbSet<EntryComment> EntryComments { get; set; }
         public DbSet<EntryFavorite> EntryFavorites { get; set; }
-        public DbSet<EmailConfirmation> EmailConfirmations { get; set; }
+        public DbSet<EntryFavorite> EmailConfirmations { get; set; }
         public DbSet<EntryVote> EntryVotes { get; set; }
         public DbSet<EntryCommentVote> EntryCommentVotes { get; set; }
         public DbSet<EntryCommentFavorite> EntryCommentFavorites { get; set; }

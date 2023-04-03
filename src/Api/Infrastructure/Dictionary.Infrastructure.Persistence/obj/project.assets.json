@@ -796,6 +796,19 @@
           }
         }
       },
+      "Dictionary.Api.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dictionary.Api.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dictionary.Api.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dictionary.Api.Application.dll": {}
+        }
+      },
       "Dictionary.Api.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2059,6 +2072,11 @@
         "version.txt"
       ]
     },
+    "Dictionary.Api.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Dictionary.Api.Application/Dictionary.Api.Application.csproj",
+      "msbuildProject": "../../Core/Dictionary.Api.Application/Dictionary.Api.Application.csproj"
+    },
     "Dictionary.Api.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/Dictionary.Api.Domain/Dictionary.Api.Domain.csproj",
@@ -2073,6 +2091,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Bogus >= 34.0.2",
+      "Dictionary.Api.Application >= 1.0.0",
       "Dictionary.Api.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.15",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.15",
@@ -2113,6 +2132,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Application\\Dictionary.Api.Application.csproj": {
+              "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Application\\Dictionary.Api.Application.csproj"
+            },
             "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Domain\\Dictionary.Api.Domain.csproj": {
               "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Domain\\Dictionary.Api.Domain.csproj"
             }

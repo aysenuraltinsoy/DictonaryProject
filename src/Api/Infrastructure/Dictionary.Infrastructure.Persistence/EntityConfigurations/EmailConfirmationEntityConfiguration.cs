@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Dictionary.Infrastructure.Persistence.EntityConfigurations
 {
-    public class EmailConfirmationEntityConfiguration:BaseEntityConfiguration<EmailConfirmation>
+    public class EmailConfirmationEntityConfiguration:BaseEntityConfiguration<EntryFavorite>
     {
-        public override void Configure(EntityTypeBuilder<EmailConfirmation> builder)
+        public override void Configure(EntityTypeBuilder<EntryFavorite> builder)
         {
             base.Configure(builder);
             builder.ToTable("emailconfirmation", DictionaryContext.DEFAULT_SCHEMA);

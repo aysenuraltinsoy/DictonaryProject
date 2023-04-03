@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Dictionary.Api.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dictionary.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dictionary.Api.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dictionary.Api.Domain.dll": {}
+        }
+      },
+      "Dictionary.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Dictionary.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dictionary.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dictionary.Api.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Dictionary.Api.Domain/Dictionary.Api.Domain.csproj",
+      "msbuildProject": "../Dictionary.Api.Domain/Dictionary.Api.Domain.csproj"
+    },
+    "Dictionary.Common/1.0.0": {
+      "type": "project",
+      "path": "../../../Common/Dictionary.Common/Dictionary.Common.csproj",
+      "msbuildProject": "../../../Common/Dictionary.Common/Dictionary.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Dictionary.Api.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\aalti\\.nuget\\packages\\": {},
@@ -39,7 +76,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Domain\\Dictionary.Api.Domain.csproj": {
+              "projectPath": "C:\\Users\\aalti\\Desktop\\BilgeAdam\\Projects\\Sozluk\\Dictionary\\src\\Api\\Core\\Dictionary.Api.Domain\\Dictionary.Api.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

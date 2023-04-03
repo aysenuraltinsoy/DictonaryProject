@@ -838,6 +838,19 @@
           }
         }
       },
+      "Dictionary.Api.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dictionary.Api.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dictionary.Api.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dictionary.Api.Application.dll": {}
+        }
+      },
       "Dictionary.Api.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -866,6 +879,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Bogus": "34.0.2",
+          "Dictionary.Api.Application": "1.0.0",
           "Dictionary.Api.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.15",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.15",
@@ -2186,6 +2200,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Dictionary.Api.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Dictionary.Api.Application/Dictionary.Api.Application.csproj",
+      "msbuildProject": "../../Core/Dictionary.Api.Application/Dictionary.Api.Application.csproj"
     },
     "Dictionary.Api.Domain/1.0.0": {
       "type": "project",
